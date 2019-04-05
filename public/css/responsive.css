@@ -1,0 +1,700 @@
+/**Media query large**/
+@media (max-width: 1199px) {
+    /**Video modal css start**/
+    .video_modal .modal-dialog{
+        width: 750px;
+        margin-top: 40px;
+    }
+    /**Video modal css end**/
+    .navbar-brand>img{
+        width: 80%;
+    }
+    .navbar-nav{
+        margin-right: 20px;
+    }
+    .navbar-default .navbar-nav>li>a{
+        padding: 15px 7px;
+    }
+    .nav_ber .navbar-default .navbar-right {
+        margin-top: 12px;
+    }
+    .nav_ber button.lern {
+        margin-right: 7px;
+    }
+    .navbar-right button.btn_cus{
+        width: 130px;
+    }
+    .our_course_item .caption{
+        min-height: 250px;
+    }
+    .social_commiunity ul li a i {
+        font-size: 35px;
+        padding-right: 7px;
+    }
+    .login{
+        padding: 50px 35px 60px 35px;
+    }
+    .sing_up{
+        padding: 50px 35px 60px 35px;
+    }
+    .chaekbutton ul li {
+        margin-right: 15px;
+    }
+    .payment_modal .PaymentModal {
+        margin-left: -17px;
+    }
+    /**Ui/ux course page css start**/
+    .course_name img{
+        height: 412px;
+    }
+    .learning_list button{
+        margin-top: 30px;
+    }
+    .post_details{
+        padding-left: 10px;
+    }
+    .video_name{
+        padding-left: 10px;
+    }
+    /**Ui/ux course page css end**/
+}
+/**Media query medium**/
+@media (max-width: 991px) {
+    /**Video modal css start**/
+    .video_modal .modal-dialog{
+        width: 650px;
+        margin-top: 40px;
+    }
+    .video_modal .modal-dialog .modal-body {
+        padding: 15px 15px 10px 15px;
+    }
+    /**Video modal css end**/
+    .navbar-toggle{
+        margin-bottom: 0px;
+        margin-top: 22px;
+        margin-right: 0px;
+    }
+    .navbar-nav {
+        margin-right: 4px;
+    }
+    .navbar-default .navbar-nav>li>a{
+        font-size: 13px;
+        padding: 15px 5px;
+    }
+    .navbar-right button.btn_cus{
+        width: 120px;
+        height: 45px;
+    }
+    .nav_ber button.lern{
+        font-weight: 400;
+        border-width: 1px;
+        font-size: 12px;
+        padding: 0px 8px;
+        height: 40px;
+        margin-right: 0px;
+        margin-top: 5px;
+    }
+    .nav_ber button.join_us{
+        font-size: 12px;
+        width: 83px;
+        height: 40px;
+        font-weight: 400;
+    }
+    .nav_ber button.lern i.icofont-play-alt-1:before{
+        font-size: 17px;
+    }
+    .nav_ber .navbar-default .navbar-right{
+        margin-top: 13px;
+    }
+    .our_course_item .caption {
+        min-height: 200px;
+    }
+    .course_banner{
+        padding: 40px 0px 50px 0px;
+    }
+    .emergency_article {
+        padding: 40px 0px 20px 0px;
+    }
+    .article{
+        margin-bottom: 30px;
+    }
+    .emergency_article h1 {
+        margin-bottom: 30px;
+    }
+    .social_commiunity ul li a.font_s_20{
+        font-size: 15px;
+    }
+    .social_commiunity ul li a img {
+        width: 70%;
+        padding: 0px;
+    }
+    .social_commiunity ul li a i.icofont-rounded-right {
+        font-size: 15px;
+    }
+    .modal_content h1{
+        font-size: 20px;
+    }
+    .login {
+        padding: 30px 15px 30px 15px;
+    }
+    .sing_up{
+        padding: 30px 15px 30px 15px;
+    }
+    .modal_content h1 {
+        font-size: 18px;
+    }
+    button.close{
+        font-size: 20px;
+        right: 6px;
+    }
+    .sing_up h1 {
+        margin-bottom: 16px;
+    }
+    .payment_content {
+        padding: 30px 40px 40px 40px;
+    }
+    .payment_content h1{
+        font-size: 25px;
+    }
+    .payment_mathod {
+        margin-top: 20px;
+    }
+    .payment_item{
+        margin-bottom: 30px;
+    }
+    .payment_conformation {
+        margin-top: 0px;
+    }
+    .payment_conformation .dis_tabl {
+        display: block;
+        width: auto;
+        vertical-align: middle;
+    }
+    .payment_conformation .dis_tbl_cle {
+        display: block;
+        float: left;
+        vertical-align: -webkit-baseline-middle;
+        width: 100%;
+    }
+    .payment_conformation input#TransactionId {
+        margin: 20px 0px;
+    }
+    .chaekbutton ul li {
+        margin-right: 25px;
+    }
+    .chaekbutton{
+        margin-left: 2px;
+    }
+    /**Ui/ux course page css start**/
+    .course_name img {
+        height: auto;
+    }
+    .learning_list{
+        border-radius: 0px 0px 10px 10px
+    }
+    .learning_list button{
+        margin: 30px 0px 0px 0px;
+    }
+    .sideber_post {
+        margin-top: 30px;
+    }
+    .post_item{
+        margin-bottom: 15px;
+    }
+    .videos_tutorials {
+        padding: 30px 0px;
+    }
+    .post_img{
+        width: 10%;
+    }
+    /**Ui/ux course page css end**/
+    /**Ux club story page css start**/
+    .stories {
+        padding: 40px 0px 60px 0px;
+    }
+    .our_story {
+        margin-bottom: 30px;
+    }
+    .our_story h1 {
+        font-size: 40px;
+    }
+    .our_story img {
+        margin-top: 30px;
+    }
+    /**Ux club story page css end**/
+}
+/**Media query small**/
+@media (max-width: 767px) {
+    .video_modal .modal-dialog {
+        width: 100%;
+        margin: 0px;
+        padding: 30px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-size: inherit;
+        padding: 11px 0px;
+    }
+    .nav_ber .navbar-default .navbar-right {
+        margin-top: 0px;
+        margin-bottom: 17px;
+    }
+    .navbar-nav {
+        margin: 0px 0px 0px 0px;
+    }
+    .navbar-collapse {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu>li>a {
+        padding: 5px 0px 5px 0px;
+    }
+    .nav_ber button.join_us{
+        width: 200px;
+        height: 45px;
+        font-size: 15px;
+        font-weight: bold;
+        margin: 0px;
+    }
+    .nav_ber button.lern {
+        font-weight: 700;
+        border-width: 1px;
+        font-size: 15px;
+        padding: 0px 40px;
+        height: 45px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+    .header_banner {
+        padding: 40px 0px;
+    }
+    .header_banner h1 {
+        font-size: 40px;
+    }
+    footer{
+        padding: 20px 0px 15px 0px;
+    }
+    .social_commiunity ul li {
+        width: 32%;
+        border: none;
+        text-align: center;
+    }
+    .social_commiunity ul li a.font_s_20 {
+        font-size: 15px;
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .social_commiunity ul li a img {
+        width: auto;
+        padding: 0px;
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .social_commiunity ul li a .social_name {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .social_commiunity ul li a{
+        display: block;
+    }
+    .modal-dialog {
+        position: relative;
+        width: auto;
+        margin: 15px 0px;
+    }
+    .payment_modal .PaymentModal{
+        margin-left: -15px;
+    }
+    .payment_modal .modal-dialog{
+        margin: 15px;
+    }
+    .payment_icon {
+        width: 70px;
+    }
+    .payment_icon img{
+        width: 50px;
+    }
+    .payment_item{
+        margin-bottom: 20px;
+        height: 70px;
+    }
+    .payment_number{
+        padding-left: 10px;
+    }
+    .payment_number h3{
+        font-size: 20px;
+    }
+    .chaekbutton {
+        margin-left: 20px;
+    }
+    /**Contact us page css start**/
+    .contact_title h1 {
+        font-size: 35px;
+    }
+    /**Contact us page css end**/
+    /**Member page css start**/
+    .our_members {
+        padding: 40px 0px 50px 0px;
+    }
+    .member {
+        margin-bottom: 40px;
+    }
+    .member_img{
+        width: 200px;
+        height: auto;
+    }
+    /**Member page css end**/
+    /**Resource page css start**/
+    .tab_section {
+        padding: 0px 0px 0px 0px;
+    }
+    .page_title h1 {
+        font-size: 35px;
+    }
+    .tab_section .tab_item .software{
+        margin-bottom: 50px;
+    }
+    .tab_section .tab_item .software:last-child {
+        margin-bottom: 30px;
+    }
+    .tab_section .tab_item .software .software_details{
+        padding-left: 20px;
+    }
+    .tab_section .tab_item .software .software_details h2{
+        margin-top: -6px;
+        font-size: 25px;
+    }
+    /**Resource page css end**/
+}
+/**Media query extra small**/
+@media (max-width: 599px) {
+    .video_modal .modal-dialog {
+        width: 100%;
+        margin: 0px;
+        padding: 15px;
+    }
+    .video_modal .modal-dialog .modal-body button.close{
+        font-size: 20px;
+        font-weight: lighter;
+        right: -10px;
+        top: -10px;
+        padding: 2px 7px 4px 7px;
+    }
+    .video_modal .modal-dialog .modal-body h4 {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    .video_modal .modal-dialog .modal-body {
+        padding: 10px 10px 3px 10px;
+    }
+    .btn_cus{
+        height: 45px;
+    }
+    .full_width_599{
+        width: 100%;
+    }
+    .header_banner {
+        padding: 25px 0px;
+    }
+    .header_banner h1 {
+        font-size: 25px;
+    }
+    .our_courses {
+        padding: 40px 0px 10px 0px;
+    }
+    .our_course_item .caption {
+        min-height: auto;
+    }
+    .course_banner {
+        padding: 25px 0px 35px 0px;
+    }
+    .course_banner_content h1 {
+        font-size: 30px;
+    }
+    .course_banner_content button{
+        width: 100%;
+        height: 45px;
+        padding: 0px;
+        margin: 0px 0px 15px 0px;
+    }
+    .course_banner_content button:last-child{
+        margin: 0px;
+    }
+    .our_course_item{
+        min-height: auto;
+    }
+    .our_course_item .caption a{
+        position: inherit;
+    }
+    .our_course_item .caption p {
+        margin-bottom: 8px;
+    }
+    .social_commiunity ul li{
+        width: 100%;
+        border-bottom: 1px solid gainsboro;
+    }
+    .emergency_article {
+        padding: 20px 0px 0px 0px;
+    }
+    .emergency_article h1 {
+        margin-bottom: 25px;
+        font-size: 30px;
+    }
+    .social_commiunity ul li:last-child{
+        border-bottom: none;
+    }
+    .modal_content {
+        border-radius: 10px;
+        display: block;
+    }
+    .modal_content .form-control {
+        height: 45px;
+        font-size: 16px;
+    }
+    .modal_content h1 {
+        font-size: 22px;
+    }
+    .login{
+        padding: 25px 15px 30px 15px;
+        width: 100%;
+        display: block;
+        border-radius: 6px 6px 0px 0px;
+    }
+    .login form {
+        margin-top: 20px;
+    }
+    .sing_up{
+        padding: 25px 15px 30px 15px;
+        width: 100%;
+        display: block;
+    }
+    .payment_content {
+        padding: 25px 15px 30px 15px;
+    }
+    .payment_conformation input#TransactionId {
+        margin: 20px 0px;
+        height: 45px;
+        font-size: 16px;
+    }
+    .payment_content h1 {
+        font-size: 20px;
+    }
+    .payment_conformation h3{
+        font-size: 20px;
+    }
+    .payment_mathod {
+        margin-top: 15px;
+    }
+    .payment_conformation form p {
+        margin-bottom: 0px;
+    }
+    .payment_conformation form {
+        margin-top: 5px;
+    }
+    /**Ui/ux course page css start**/
+    .learning_list {
+        padding: 15px;
+    }
+    .course_details{
+        padding: 10px 15px;
+    }
+    .course_details p {
+        font-size: 15px;
+    }
+    .course_details h3 {
+        font-size: 20px;
+    }
+    .course .our_courses {
+        padding: 20px 0px 0px 0px;
+    }
+    .our_courses h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .learning_list button {
+        margin: 20px 0px 0px 0px;
+        width: 100%;
+        padding: 7px 15px;
+    }
+    .tutorial_title h2{
+        font-size: 20px;
+    }
+    .play_list{
+        display: block;
+        text-align: center;
+        padding: 20px 15px;
+    }
+    .play_icon{
+        display: block;
+        text-align: center;
+    }
+    .video_name{
+        display: block;
+        margin-top: 6px;
+    }
+    .priview_btn {
+        display: block;
+        text-align: center;
+        margin-top: 6px;
+    }
+    .priview_btn button{
+        width: 100%;
+    }
+    /**Ui/ux course page css end**/
+    /**Contact us page css start**/
+    .contact_us_page{
+        padding: 30px 0px;
+    }
+    .contact_title h1 {
+        font-size: 30px;
+    }
+    .contact_item{
+        margin-top: 15px;
+    }
+    .contact_item ul li{
+        display: block;
+        margin-bottom: 8px;
+        margin-right: 0px;
+    }
+    .contact_item ul li:last-child{
+        margin-bottom: 0px;
+    }
+    .contact_us_inner .dis_tbl {
+        display: block;
+    }
+    .contact_us_inner .dis_tbl .dis_tbl_cle {
+        display: block;
+        float: left;
+        vertical-align: initial;
+    }
+    .contact_form {
+        margin-top: 30px;
+    }
+    .contact_form .form-group {
+        margin-bottom: 25px;
+    }
+    .contact_form .form-control{
+        padding-bottom: 10px;
+    }
+    .contact_form textarea.form-control {
+        min-height: 100px;
+    }
+    .contact_form button{
+        height: 45px;
+    }
+    /**Contact us page css end**/
+    /**Member page css start**/
+    .our_members {
+        padding: 20px 0px 30px 0px;
+    }
+    .page_title {
+        padding-bottom: 30px;
+    }
+    .page_title h1 {
+        font-size: 25px;
+    }
+    .member {
+        display: block;
+    }
+    .member_img{
+
+    }
+    .member_img{
+        display: block;
+        margin: auto;
+    }
+    .member_img img {
+        position: inherit;
+        top: auto;
+        left: auto;
+        transform: inherit;
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+    }
+    .member_info{
+        text-align: center;
+        padding: 10px 0px 0px 0px;
+    }
+    .member_info h3 {
+        font-size: 20px;
+    }
+    .member_info h5 {
+        margin-top: 0px;
+    }
+    .member_info p {
+        margin-top: 5px;
+    }
+    .member_info button{
+        width: 100%;
+        margin-top: 10px;
+        padding: 9px 15px;
+    }
+    /**Member page css end**/
+    /**Ux club story page css start**/
+    .stories {
+        padding: 30px 0px;
+    }
+    .our_story {
+        margin-bottom: 20px;
+    }
+    .our_story h1 {
+        font-size: 25px;
+    }
+    .our_story img {
+        margin-top: 15px;
+    }
+    /**Ux club story page css end**/
+    /**Resource page css start**/
+    .tab_section .page_title {
+        padding: 29px 0px 22px 0px;
+    }
+    .tab_section .tab_item .item {
+        margin-bottom: 25px;
+    }
+    .tab_section .nav-tabs>li a{
+        padding: 19px 15px 15px 15px;
+    }
+    .tab_section .tab_item .software{
+        display: block;
+    }
+    .tab_section .tab_item .software:last-child {
+        margin-bottom: 25px;
+    }
+    .tab_section .tab_item .software .software_logo {
+        display: block;
+        text-align: center;
+    }
+    .tab_section .tab_item .software .software_details{
+        text-align: center;
+        display: block;
+        padding: 15px 0px 0px 0px;
+    }
+    .tab_section .tab_item .software .software_details h2{
+        margin: 0px;
+    }
+    .tab_section .tab_item .software .software_details button{
+        width: 100%;
+        padding: 7px 37px;
+        margin: 10px 0px 8px 0px;
+    }
+    /**Resource page css end**/
+}
+/**Media query 2extra small**/
+@media (max-width: 480px) {
+    .full_width_480{
+        width: 100%;
+    }
+    .navbar-right button {
+        margin-left: 0px;
+    }
+    .nav_ber button.lern{
+        margin-right: 0px;
+        margin-bottom: 8px;
+    }
+    .nav_ber button.join_us{
+        width: 100%;
+    }
+}
